@@ -13,7 +13,7 @@ export const config = {
     TEMPLATE_ID: "tNcpBxTmGbIJ5BwXKPcZ6e2SRhMr-Nb6LJmJ2gsxTwE",
 
     // 回调消息模板id, 用来看自己有没有发送成功的那个模板
-    CALLBACK_TEMPLATE_ID: "	LE6Wc5k3bchFa7n9pQukswNN_fW57A6G2G4ucMmZctk",
+    CALLBACK_TEMPLATE_ID: "NQfKEHU5Eq4N2RbK4KQeyrmD6zbDk3CGT4aqz6fUKLo",
 
 
     /**
@@ -25,7 +25,7 @@ export const config = {
      */
     USERS: [
       {name: '老婆0', id: "o6XdU6Nhf4dRmfZ0tTvLNltG_Su0"}, 
-      {name: '老婆1', id: "2hxOO6VskYv0Kuf-y你懂的,填错狗头打烂RMpuXhk"}, 
+      {name: '老婆1', id: "o6XdU6OjP7KQl2xipLE0CSFlHOfg"}, 
       {name: '老婆2', id: "3hxOO6VskYv0Kuf-yw你懂的,填错狗头打烂2RMpuXhk"}, 
       {name: '老婆3', id: "4hxOO6VskYv0Kuf-ywI你懂的,填错狗头打烂MpuXhk"}, 
     ],
