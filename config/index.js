@@ -10,10 +10,10 @@ export const config = {
     APP_SECRET: "71d9085182eebb39abed98ec0db00b80",
 
     // 模板消息id
-    TEMPLATE_ID: "3ZE0Lwr1wmnY7JiPaqnQ2tvOdEKZNLUYa4S1VmJNk9Q",
+    TEMPLATE_ID: "tNcpBxTmGbIJ5BwXKPcZ6e2SRhMr-Nb6LJmJ2gsxTwE",
 
     // 回调消息模板id, 用来看自己有没有发送成功的那个模板
-    CALLBACK_TEMPLATE_ID: "3ZE0Lwr1wmnY7JiPaqnQ2tvOdEKZNLUYa4S1VmJNk9Q",
+    CALLBACK_TEMPLATE_ID: "	LE6Wc5k3bchFa7n9pQukswNN_fW57A6G2G4ucMmZctk",
 
 
     /**
@@ -55,8 +55,9 @@ export const config = {
      */
     FESTIVALS: [
       {"type": "生日", "name": "老婆", "year": "2000", "date": "07-17"},
-      {"type": "节日", "name": "结婚纪念日", "year": "2026", "date": "06-01"},
+      {"type": "节日", "name": "儿童节", "year": "2026", "date": "06-01"},
       {"type": "节日", "name": "被搭讪纪念日", "year": "2017", "date": "10-01"},
+      {"type": "节日", "name": "元旦节", "year": "2023", "date": "01-01"},
     ],
 
     /**
@@ -74,8 +75,7 @@ export const config = {
       * */
     CUSTOMIZED_DATE_LIST: [
       // 在一起的日子
-      {"keyword": "love_day", date: "2017-11-01"},
-      // 结婚纪念日
+      {"keyword": "love_day", date: "2017-11-01"}
     ],
 
     /** 插槽 */
@@ -100,7 +100,7 @@ export const config = {
 
     // 好文节选的内容类型
     // 可以填写【动画，漫画，游戏，小说，原创，网络，其他】； 随机则填写 ""
-    LITERARY_PREFERENCE: ""
+    LITERARY_PREFERENCE: "动画"
 
 
     }
