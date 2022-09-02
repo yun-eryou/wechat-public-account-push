@@ -4,34 +4,34 @@ export const config = {
      */
 
     // 公众号APP_ID
-    APP_ID: "",
+    APP_ID: "wx591ae82b1f64abb0",
 
     // 公众号APP_SECRET
-    APP_SECRET: "",
+    APP_SECRET: "71d9085182eebb39abed98ec0db00b80",
 
     // 模板消息id
-    TEMPLATE_ID: "",
+    TEMPLATE_ID: "3ZE0Lwr1wmnY7JiPaqnQ2tvOdEKZNLUYa4S1VmJNk9Q",
 
     // 回调消息模板id, 用来看自己有没有发送成功的那个模板
-    CALLBACK_TEMPLATE_ID: "",
+    CALLBACK_TEMPLATE_ID: "3ZE0Lwr1wmnY7JiPaqnQ2tvOdEKZNLUYa4S1VmJNk9Q",
 
 
     /**
      * 接收公众号消息的微信号，如果有多个，需要在[]里用英文逗号间隔，例如
      * [
-     *   {name: '老婆0', id: "ohxOO6VskYv0Kuf-ywIZVRMpuXhk"}, 
+     *   {name: '老婆0', id: "o6XdU6Nhf4dRmfZ0tTvLNltG_Su0"}, 
      *   {name: '老婆1', id: "2hxOO6VskYv0Kuf-y你懂的,填错狗头打烂RMpuXhk"},
      * ]
      */
     USERS: [
-      {name: '老婆0', id: "1hxOO6VskYv0Kuf-y你懂的,填错狗头打烂VRMpuXhk"}, 
+      {name: '老婆0', id: "o6XdU6Nhf4dRmfZ0tTvLNltG_Su0"}, 
       {name: '老婆1', id: "2hxOO6VskYv0Kuf-y你懂的,填错狗头打烂RMpuXhk"}, 
       {name: '老婆2', id: "3hxOO6VskYv0Kuf-yw你懂的,填错狗头打烂2RMpuXhk"}, 
       {name: '老婆3', id: "4hxOO6VskYv0Kuf-ywI你懂的,填错狗头打烂MpuXhk"}, 
     ],
     // 接收成功回调消息的微信号，（一般来说只填自己的微信号, name填不填无所谓）
     CALLBACK_USERS: [
-      {name: '自己',id: "5hxOO6VskYv你懂的,填错狗头打烂-ywIZVRMpuXhk"}, 
+      {name: '自己',id: "o6XdU6Nhf4dRmfZ0tTvLNltG_Su0"}, 
     ],
      
     /**
@@ -41,9 +41,9 @@ export const config = {
     /** 天气相关 */
 
     // 所在省份
-    PROVINCE: "广东",
+    PROVINCE: "安徽",
     // 所在城市
-    CITY: "惠州",
+    CITY: "宣城",
 
     /** 重要节日相关 */
 
@@ -54,10 +54,9 @@ export const config = {
      * 节日时，name填写相应展示的节日，你可以填“被搭讪纪念日”
      */
     FESTIVALS: [
-      {"type": "生日", "name": "老婆", "year": "1996", "date": "09-02"},
-      {"type": "节日", "name": "结婚纪念日", "year": "2020", "date": "09-03"},
-      {"type": "生日", "name": "李四", "year": "1996", "date": "09-31"},
-      {"type": "节日", "name": "被搭讪纪念日", "year": "2021", "date": "09-01"},
+      {"type": "生日", "name": "老婆", "year": "2000", "date": "07-17"},
+      {"type": "节日", "name": "结婚纪念日", "year": "2026", "date": "06-01"},
+      {"type": "节日", "name": "被搭讪纪念日", "year": "2017", "date": "10-01"},
     ],
 
     /**
@@ -65,7 +64,7 @@ export const config = {
      * 如果为3, 则仅展示“将要到达” 的3个重要节日提醒，剩下的将被忽略
      * 如果为0, 则默认展示全部
      */
-    FESTIVALS_LIMIT: 4,
+    FESTIVALS_LIMIT: 0,
 
     /** 日期相关 */
 
@@ -75,14 +74,8 @@ export const config = {
       * */
     CUSTOMIZED_DATE_LIST: [
       // 在一起的日子
-      {"keyword": "love_day", date: "2015-05-01"},
+      {"keyword": "love_day", date: "2017-11-01"},
       // 结婚纪念日
-      {"keyword": "marry_day", date: "2020-01-04"},
-      // 退伍日, 不用可以删掉
-      {"keyword": "ex_day", date: "2022-08-31"},
-      // sakana日
-      // {"keyword": "sakana_day", date: "2022-01-06"},
-      // ... 
     ],
 
     /** 插槽 */
