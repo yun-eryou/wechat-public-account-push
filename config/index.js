@@ -41,7 +41,7 @@ export const config = {
     // 所在省份
     PROVINCE: "安徽",
     // 所在城市
-    CITY: "宣城",
+    CITY: "阜阳",
 
     /** 重要节日相关 */
 
